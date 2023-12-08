@@ -38,5 +38,6 @@
 // const math = Math.pow(num1, num2);
 // console.log(math);
 
-const randomNumber = Math.round(Math.random() * (50 - 15) + 15)
-console.log(randomNumber);
+// const randomNumber = Math.round(Math.random() * (50 - 15) + 15)
+// console.log(randomNumber);
+
