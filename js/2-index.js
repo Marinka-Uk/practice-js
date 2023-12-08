@@ -40,4 +40,11 @@
 
 // const randomNumber = Math.round(Math.random() * (50 - 15) + 15)
 // console.log(randomNumber);
+// Оператори порівняння і рівності 
+// сувора ===, не сувора ==
+// до false призводиться "0" і (пустий рядок) ''
+
+
+
+// console.log(5 == '5');
 
