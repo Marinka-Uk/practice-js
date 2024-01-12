@@ -16,22 +16,29 @@
 
 
 
-const min = 10;
-const max = 15;
-let total = 0;
+// const min = 10;
+// const max = 15;
+// let total = 0;
 
-for(let i = min; i <= max; i += 1){
-    if(i % 2 === 0){
-        console.log('Парне число:', i);
-total += i 
-    }
-}
-console.log('total :' ,  total);
+// for(let i = min; i <= max; i += 1){
+//     if(i % 2 === 0){
+//         console.log('Парне число:', i);
+// total += i 
+//     }
+// }
+// console.log('total :' ,  total);
 
 
 // 2%2 //0
 // 3%2 //1
 // 8%2 //0
+
+
+
+
+
+
+
 
 
 
