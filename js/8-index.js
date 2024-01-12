@@ -54,11 +54,11 @@
  * - Метод includes() с тернарним оператором
  */
 
-const logins = ['m4ngoDoge', 'aj4xth3m4n', 'k1widab3st', 'poly1scute'];
-const loginToFind = 'aj4xth3m4n';
-let message = logins.includes(loginToFind) ? `Користувач ${loginToFind} знайдено.` :`Користувач ${loginToFind} не знайдено.`;
+// const logins = ['m4ngoDoge', 'aj4xth3m4n', 'k1widab3st', 'poly1scute'];
+// const loginToFind = 'aj4xth3m4n';
+// let message = logins.includes(loginToFind) ? `Користувач ${loginToFind} знайдено.` :`Користувач ${loginToFind} не знайдено.`;
 
-console.log(message);
+// console.log(message);
 
 //умова ? true : false
 
