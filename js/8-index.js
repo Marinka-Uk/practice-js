@@ -1,4 +1,29 @@
-//масиви
+//масиви []
+//це колекція однотипних даних
+
+
+// const num1 = 10;
+// const num2 = 35;
+// const myArray = [10, 25, 24, 12, 36];
+// console.log(myArray[0]);
+// myArray[0] = 15;
+// console.log(myArray[1]);
+
+
+
+
+
+//ітерація
+
+// const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
+
+// for(let i = 0; i <= names.length - 1; i += 1){
+//     console.log(i);
+//     console.log(names[i]);
+// }
+
+
+
 
 
 /*
