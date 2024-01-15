@@ -88,3 +88,49 @@
 //умова ? true : false
 
 
+
+
+
+
+//методи масиву
+
+
+//const str = 'hello!';
+//const arrStr = str.split('');
+//console.log(arrStr);
+
+// const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
+
+// const reversArr = names.join(', ');
+// console.log(reversArr); 
+
+// names.push['Lera'];
+// console.log(names);
+// names.pop();
+// console.log(names);
+// names.shift();
+// console.log(names);
+// names.unshift('Marko')
+// console.log(names);
+
+
+// const slicedNames = names.slice()
+// console.log(slicedNames);
+
+// const matrix=[[5, 2, 60],[0, 10, 20],[15, 15, 15]]
+// const arr1 = [5, 2, 6];
+
+// const concatedArrs = names.concat(arr1, matrix)
+// console.log(concatedArrs);
+
+
+// const numbers = [51, 18, 13, 24, 7, 85, 19];
+// let smallesNumber = numbers[0]
+// for (let i = 0; i < numbers.length; i +=1){
+//     if(numbers [i] < smallesNumber){
+//         smallesNumber = numbers[i]
+//     }
+
+// }
+
+// console.log(smallesNumber);
