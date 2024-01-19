@@ -134,3 +134,104 @@
 // }
 
 // console.log(smallesNumber);
+
+
+
+
+//Методи масиву
+
+
+// const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
+
+//видалення
+ 
+// const spliceName =  names.splice(1, 2);
+// console.log(spliceName);
+
+
+//додавання
+
+// names.splice(4, 0, 'Marina', 'Egor' )
+// console.log(names);
+
+//заміна
+
+// names.splice(2, 1,  'Marina', 'Egor')
+// console.log(names);
+
+
+
+
+
+
+/**
+ * /*
+ * Напиши скрипт, який об"єднує всі елементи массива в один рядок.
+ * Елементів може бути довільна кількість.
+ * Нехай елементи массива  в рядку будут розділені комою.
+ */
+// const friends = ['Mango', 'Poly', 'Kiwi', 'Ajax'];
+
+// let string = friends.join(', ');
+// console.log(string);
+
+// Повинно вийти 'Mango,Poly,Kiwi,Ajax'
+
+/*
+ * Напиши скрипт який замінює регістр кожного символа в рядку на протилежний.
+ * Наприклад, якщо рядок «JavaScript», то на виході повинно бути «jAVAsCRIPT».
+ */
+
+// const str = 'JavaScript';
+// let reversStr = '' ;
+// const strArr = str.split('');
+// for(let letter of strArr) {
+// if(letter === letter.toLowerCase()){
+// reversStr += letter.toUpperCase();
+// }else{
+//     reversStr += letter.toLowerCase();
+// }
+// }
+
+// console.log(reversStr);
+
+
+
+/*
+ * Робимо slug в URL з назви стратті (приклад на dev.to)
+ * Заголовок статті складається тільки з букв та пропусків
+ *
+ * - Нормалізуємо рядок
+ * - Разбиваємо по словах
+ * - Зшиваємо в рядок з розділителями
+ * - Ченінг
+ */
+// Повинно вийти top-10-benefits-of-react-framework
+
+// const title = 'Top 10 benefits of React framework';
+// console.log(title);
+
+// const normalizedTittle = title.toLowerCase();
+// console.log(normalizedTittle);
+
+// const titleArr = normalizedTittle.split(' ');
+// console.log(titleArr);
+
+// const string = titleArr.join('-');
+// console.log(string);
+
+
+/*
+ * Напиши скрипт який рахує суму елементів двух масивів.
+ */
+
+// const array1 = [5, 10, 15, 20];
+// const array2 = [10, 20, 30];
+
+// const multiArr = array1.concat(array2);
+// let multiArrAdded = 0;
+// for (const num of multiArr){
+//     multiArrAdded += num
+// }
+
+// console.log(multiArrAdded);
