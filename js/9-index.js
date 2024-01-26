@@ -37,3 +37,61 @@
 //     const slugTitle = string.toLoaleLowerCase().split(' ').join('-');
 
 // }
+
+
+/*
+ * Напиши функцію calculateTotalPrice(items)
+ * яка приймає масив цін і повертає їх сумму
+ */
+
+// const calculateTotalPrice = function (items){
+//     let sum = 0;
+// for (let number of items ){
+//      sum += number;
+     
+// }
+// return sum;
+// }  
+
+
+
+// console.log(calculateTotalPrice([1, 2, 3])); // 6
+// console.log(calculateTotalPrice([5, 10, 15, 20])); // 50
+// console.log(calculateTotalPrice([100, 200, 300])); // 600
+
+
+
+ //Напиши функцію logItems(items) для перебора і логування массива
+
+// const logItems = function (items){
+//     for (let i of items){
+// console.log(i);
+//     }
+// }
+
+  
+// logItems(['Mango', 'Kiwi', 'Poly', 'Ajax']);
+// logItems([1, 2, 3, 4, 5]);
+// logItems(['клавиатура', 'наушники', 'часы']);
+
+
+/*
+ * Напиши скрипт пошуку логіна
+ * - Якщо логіна немає, вивести повідомлення 'Користувач [логін] не знайдено.'
+ * - Якщо знайшли логін, вивести повідомлення 'Користувач [логін] знайдено.'
+ */
+
+
+// const findLogin = function(logins, loginToFind){
+// for(let login of logins){
+//     if(login === loginToFind){
+// console.log( `Користувач ${loginToFind} знайдено.`);
+//     }
+// }
+// }
+
+
+// console.log(findLogin(logins, 'avocod3r'));
+// console.log(findLogin(logins, 'k1widab3st'));
+// console.log(findLogin(logins, 'jam4l'));
+// console.log(findLogin(logins, 'poly1scute'));
