@@ -95,9 +95,9 @@
 //методи масиву
 
 
-//const str = 'hello!';
-//const arrStr = str.split('');
-//console.log(arrStr);
+// const str = 'hello!';
+// const arrStr = str.split('');
+// console.log(arrStr);
 
 // const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
 
