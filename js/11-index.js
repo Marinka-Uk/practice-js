@@ -99,10 +99,76 @@
 
 
 
+//Перебір об'єктів
+
+
+//ВАРІНАТИ ЗВЕРНЕННЯ ДО ВЛАСТИВОСТЕЙ ОБ'ЄКТА
+// const feedback = {
+// good: 5,
+// neutral: 10,
+// bad: 3,
+// };
+// const good = 'good';
+
+// feedback.good
+// feedback['good']
+// feedback[good]
+
+
+// const feedback = {
+// good: 5,
+// neutral: 10,
+// bad: 3,
+// };
+// const keys = Object.keys(feedback)
+// console.log(keys);
+// for(const key of keys){
+//     console.log(key);
+//     console.log(feedback[key]);
+
+//     feedback.key
+// }
+
+// const values = Object.values(feedback)
+// console.log(values);
+// for (const value of values){
+//     console.log(value);
+// }
+
+// console.log(feedback);
+
+
+
+// const friends = [
+//     { name: 'Mango', online: false },
+//     { name: 'Kiwi', online: true },
+//     { name: 'Poly', online: false },
+//     { name: 'Ajax', online: false },
+//     ];
+    
+//         for (const friend of friends){
+//             console.log(friends.name);
+//             friend.property = 10;
+//         }
+//  console.table(friends)
+
+//  const findFriendByName = function(friends, name){
+// for (const friend of friends){
+//   console.log(friend.name);
+//   if(friend.name === name){
+//     console.log(`Користувача ${name} знайдено`);
+//   }else{
+//     console.log(`Користувача ${name} не знайдено`);
+//   }
+// }
+//  }
+
+
+// console.log(findFriendByName(friends, 'Poly'));
+// console.log(findFriendByName(friends, 'Chelsy'));
 
 
 
 
-// Створіть об'єкт "book" з властивостями "title", "author", "year" та "genre". Додайте до об'єкту метод, який дозволить змінювати значення властивостей.
-// Створіть об’єкт "сar", який буде мати властивості "brand", "model", "year" та "color". Додайте метод, який буде виводити на екран повідомлення про автомобіль зі значеннями всіх властивостей.
-// Створіть об'єкт "restaurant" з властивостями "name", "cuisine", "address" та "rating". Додайте до об'єкту метод, який дозволить змінювати значення властивостей "address" та "rating"
+
+
