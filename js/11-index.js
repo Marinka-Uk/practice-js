@@ -169,6 +169,43 @@
 
 
 
+// const playlist = {
+//     name: 'Мій супер плейлист',
+//     rating: 5,
+//     tracks: ['трек-1', 'трек-2', 'трек-3'],
+//     trackCount: 3,
+//     };
+//     const {name, rating, trackCount, tracks} = playlist
+//     console.log(name, rating,tracks,trackCount);
 
-
-
+const cart = {
+    items: [],
+    getItems() {
+    console.log(this.items)
+    },
+    add(product) {
+    this.items.push(product)
+    },
+    remove(productName) {
+    let index;
+    for (const item of this.items){
+    if (item.name === productName){
+    index = this.items.indexOf(item);
+    this.items.splice(index, 1);
+    }
+    }
+    return this.items;
+    },
+    clear() {},
+    countTotalPrice() {},
+    increaseQuantity(productName) {},
+    decreaseQuantity(productName) {},
+    };
+    cart.add({ name: '🍎', price: 50 });
+    cart.add({ name: '🍇', price: 70 });
+    cart.add({ name: '🍋', price: 60 });
+    cart.add({ name: '🍓', price: 110 });
+    console.log(cart);
+    console.log(cart.getItems());
+    console.log(cart.remove('🍎'));
+    console.log(cart.remove('🍋'));
