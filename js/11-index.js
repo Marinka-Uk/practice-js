@@ -178,34 +178,115 @@
 //     const {name, rating, trackCount, tracks} = playlist
 //     console.log(name, rating,tracks,trackCount);
 
-const cart = {
-    items: [],
-    getItems() {
-    console.log(this.items)
-    },
-    add(product) {
-    this.items.push(product)
-    },
-    remove(productName) {
-    let index;
-    for (const item of this.items){
-    if (item.name === productName){
-    index = this.items.indexOf(item);
-    this.items.splice(index, 1);
-    }
-    }
-    return this.items;
-    },
-    clear() {},
-    countTotalPrice() {},
-    increaseQuantity(productName) {},
-    decreaseQuantity(productName) {},
-    };
-    cart.add({ name: '🍎', price: 50 });
-    cart.add({ name: '🍇', price: 70 });
-    cart.add({ name: '🍋', price: 60 });
-    cart.add({ name: '🍓', price: 110 });
-    console.log(cart);
-    console.log(cart.getItems());
-    console.log(cart.remove('🍎'));
-    console.log(cart.remove('🍋'));
+// const cart = {
+//     items: [],
+//     getItems() {
+//     console.log(this.items)
+//     },
+//     add(product) {
+//     this.items.push(product)
+//     },
+//     remove(productName) {
+//     let index;
+//     for (const item of this.items){
+//     if (item.name === productName){
+//     index = this.items.indexOf(item);
+//     this.items.splice(index, 1);
+//     }
+// //     }
+//     return this.items;
+//     },
+//     clear() {},
+//     countTotalPrice() {},
+//     increaseQuantity(productName) {},
+//     decreaseQuantity(productName) {},
+//     };
+//     cart.add({ name: '🍎', price: 50 });
+//     cart.add({ name: '🍇', price: 70 });
+//     cart.add({ name: '🍋', price: 60 });
+//     cart.add({ name: '🍓', price: 110 });
+//     console.log(cart);
+//     console.log(cart.getItems());
+//     console.log(cart.remove('🍎'));
+//     console.log(cart.remove('🍋'));
+
+
+
+
+// const car = {
+//     make: 'Toyota',
+//     model: 'Camry',
+//     year: 2020,
+//     features: ['power windows', 'rear camera', 'navigation'],
+//     safety: {
+//     airbags: true,
+//     antilock_brakes: true,
+//     stability_control: true
+//     }
+//     }
+
+//     const{model, make} = car;
+// const{ year, features, safety: [airbags, antilock_brakes, stability_control]} = car;
+// console.log(model, antilock_brakes);
+
+
+
+
+
+
+
+
+//Напишіть функцію, яка отримує об'єкт з 
+//ім'ям, прізвищем та віком та використовує 
+//деструктуризацію для повернення рядка,
+// що містить інформацію 
+//про цю людину в такому форматі:
+// "Мене звати Ім'я Прізвище і мені Вік років".
+
+
+
+// const person = {
+// name: 'Nelli',
+// surname: 'Laroy',
+// age: 25
+// };
+
+// const personInfo = function({name, surname, age}){
+// return `Мене звати ${name } ${surname} і мені ${age}років `
+// }
+// console.log(personInfo(person));
+
+
+
+
+
+
+
+//Задача 2
+//Напишіть функцію, яка приймає об'єкт, 
+//що містить інформацію про студента
+// (ім'я, прізвище, оцінки за три предмети) 
+//та використовує деструктуризацію для повернення
+// середньої оцінки студента.
+
+// const student = {
+// name: 'Bruce',
+// surname: 'Lee',
+// grades: [4, 5, 3]
+// };
+
+// const calculateAverageGrade = function({name, surname, grades}){
+// let averageGrade = 0;
+// for(const grade of grades){
+// averageGrade += grade 
+// } 
+//     return `Середній бал ${surname} буде ${averageGrade /grades.length}`
+// }
+
+// console.log(calculateAverageGrade(student));
+
+
+
+
+
+
