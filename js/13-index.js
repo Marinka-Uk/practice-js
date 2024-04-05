@@ -36,13 +36,13 @@
 // в style.css. Додати заголовок на сторінку
 
 
-const linkRef = document.querySelector(".site-nav__link")
-const text = document.createElement('p');
-text.textContent = 'Привіт, це перший мій створений елемент!';
-text.classList.add('tittle');
-console.log(text);
+// const linkRef = document.querySelector(".site-nav__link")
+// const text = document.createElement('p');
+// text.textContent = 'Привіт, це перший мій створений елемент!';
+// text.classList.add('tittle');
+// console.log(text);
 
-document.body.innerHTML = text.textContent
+// document.body.innerHTML = text.textContent
 
 
 
@@ -52,4 +52,48 @@ document.body.innerHTML = text.textContent
 
 
 
-   
+
+
+
+
+
+
+
+// const targetBtn = document.querySelector('.js-target-btn');
+// const addListenerBtn = document.querySelector('.js-add-listener');
+// const removeListenerBtn = document.querySelector('.js-remove-listener');
+
+
+// targetBtn.addEventListener('click', onClick)
+// removeListenerBtn.removeEventListener('click', onClick )
+// function onClick(event){
+//     console.log(event.target);
+// }
+
+
+
+
+//const form = document.querySelector('.js-register-form');
+
+
+// form.addEventListener('submit', onSubmit)
+// function onSubmit(event){
+//     event.preventDefault()
+//     const form = event.currentTarget
+//     const password = form.elements.password.value
+//     console.log(password);
+
+// }
+
+
+
+// const input = document.querySelector('.js-input');
+// const nameLabel = document.querySelector('.js-button > span');
+// const licenseCheckbox = document.querySelector('.js-license');
+// const btn = document.querySelector('.js-button');
+
+
+// input.addEventListener('input', (event)=>{
+//     console.log((event.currentTarget.value));
+//     nameLabel.textContent += event.currentTarget.value
+// })
