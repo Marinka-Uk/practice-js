@@ -97,3 +97,28 @@
 //     console.log((event.currentTarget.value));
 //     nameLabel.textContent += event.currentTarget.value
 // })
+
+
+
+
+
+
+// const containerEl = document.querySelector('body')
+// const listEl = document.querySelector('.site-nav')
+
+// const titleRef = document.createElement('h1')
+// titleRef.textContent = 'My first element' ;
+// titleRef.classList.add('title');
+// titleRef.style.color = 'tomato'  ;
+
+// console.log(titleRef);
+
+
+// listEl.after(titleRef)
+
+
+
+
+const titleEl = document.querySelector('.title');
+console.log(titleEl,);
+console.log();
