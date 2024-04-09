@@ -119,6 +119,38 @@
 
 
 
-const titleEl = document.querySelector('.title');
-console.log(titleEl,);
-console.log();
+// const titleEl = document.querySelector('.title');
+// console.log(titleEl,);
+// console.log();
+
+
+
+
+
+//ДЗ ДОДАТКОВЕ З ТЕЛЕГРАМУ -->
+//Створити за допомогою методу createelement()
+
+
+
+
+const article = document.createElement('article');
+article.classList.add('product');
+
+const heading = document.createElement('h2');
+heading.classList.add('product__name');
+heading.textContent = 'Назва';
+
+const description = document.createElement('p');
+description.classList.add('product__descr');
+description.textContent = 'Опис';
+
+const price = document.createElement('p');
+price.classList.add('product__price');
+price.textContent = 'Ціна: 1111 кредитів';
+
+article.appendChild(heading);
+article.appendChild(description);
+article.appendChild(price);
+
+document.body.appendChild(article);
+
