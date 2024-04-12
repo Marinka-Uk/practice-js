@@ -133,24 +133,47 @@
 
 
 
-const article = document.createElement('article');
-article.classList.add('product');
+// const article = document.createElement('article');
+// article.classList.add('product');
 
-const heading = document.createElement('h2');
-heading.classList.add('product__name');
-heading.textContent = 'Назва';
+// const heading = document.createElement('h2');
+// heading.classList.add('product__name');
+// heading.textContent = 'Назва';
 
-const description = document.createElement('p');
-description.classList.add('product__descr');
-description.textContent = 'Опис';
+// const description = document.createElement('p');
+// description.classList.add('product__descr');
+// description.textContent = 'Опис';
 
-const price = document.createElement('p');
-price.classList.add('product__price');
-price.textContent = 'Ціна: 1111 кредитів';
+// const price = document.createElement('p');
+// price.classList.add('product__price');
+// price.textContent = 'Ціна: 1111 кредитів';
 
-article.appendChild(heading);
-article.appendChild(description);
-article.appendChild(price);
+// article.appendChild(heading);
+// article.appendChild(description);
+// article.appendChild(price);
 
-document.body.appendChild(article);
+// document.body.appendChild(article);
+
+
+
+
+
+
+
+
+
+
+
+const openModalBtn = document.querySelector('[data-action="open-modal"]');
+const closeModalBtn = document.querySelector('[data-action="close-modal"]');
+const backdrop = document.querySelector('.js-backdrop');
+
+
+
+openModalBtn.addEventListener('click', onOpenModal)
+function onOpenModal() {
+document.body.classList.add('show-modal')
+
+}
+
 
